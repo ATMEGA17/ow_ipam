@@ -1,0 +1,10 @@
+[run]
+omit =
+    /*/test*
+    /tests
+    /*/__init__.py
+    /setup.py
+    /*/migrations/*
+source = openwisp_ipam
+parallel = true
+concurrency = multiprocessing
