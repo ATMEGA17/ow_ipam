@@ -1,4 +1,4 @@
-openwisp-users @ https://github.com/openwisp/openwisp-users/tarball/master
-openwisp-utils[rest] @ https://github.com/openwisp/openwisp-utils/tarball/master
+openwisp-users @ https://github.com/ATMEGA17/ow_users/tarball/master
+openwisp-utils @ https://github.com/ATMEGA17/ow_utils/tarball/master
 django-reversion~=5.0.4
 openpyxl~=3.1.2

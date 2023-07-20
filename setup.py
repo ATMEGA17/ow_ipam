@@ -21,30 +21,5 @@ def get_install_requires():
 
 
 setup(
-    name='openwisp-ipam',
-    version=get_version(),
-    license='BSD-3-Clause',
-    author='OpenWISP',
-    author_email='support@openwisp.io',
-    description='IP address space administration module of OpenWISP.',
-    long_description=README,
-    url='https://github.com/openwisp/openwisp-ipam',
-    download_url='https://github.com/openwisp/openwisp-ipam/releases',
-    platforms=['Platform Independent'],
-    keywords=['django', 'freeradius', 'networking', 'openwisp'],
-    packages=find_packages(exclude=['tests*', 'docs*']),
-    include_package_data=True,
-    zip_safe=False,
-    install_requires=get_install_requires(),
-    classifiers=[
-        'Development Status :: 3 - Alpha',
-        'Environment :: Web Environment',
-        'Topic :: Internet :: WWW/HTTP',
-        'Topic :: System :: Networking',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
-        'Operating System :: OS Independent',
-        'Framework :: Django',
-        'Programming Language :: Python :: 3',
-    ],
+
 )
