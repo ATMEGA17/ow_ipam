@@ -21,5 +21,5 @@ def get_install_requires():
 
 
 setup(
-
+    install_requires=get_install_requires(),
 )
